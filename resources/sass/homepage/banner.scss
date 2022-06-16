@@ -5,39 +5,46 @@
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
-  align-items: center; 
+  align-items: center;
+
+    .banner-content {
+      margin-left: 40px;
+    }
 }
 
-.banner-content {
-  margin-left: 40px;
-}
+
 
 .banner-header {
   width: 566px;
   height: 145px;
   line-height: 55px;
   margin-bottom: -30px;
-}
-.banner-title {
-  font-size: 50px; 
-  color: #11114E;
-  font-weight: 400;
+
+    .banner-title {
+      font-size: 50px; 
+      color: #11114E;
+      font-weight: 400;
+    }
+
+      .title-weight {
+        font-weight: 700;
+      }  
 }
 
-.title-weight {
-  font-weight: 700;
-}
+
 
 .banner-text {
   width: 249px;
   height: 50px;
+
+    .paragraph {
+      font-size: 20px;
+      color: #505353;
+      font-weight: 400;
+    }
 }
 
-.paragraph {
-  font-size: 20px;
-  color: #505353;
-  font-weight: 400;
-}
+
 
 .banner-btn {
   width: 377px;
