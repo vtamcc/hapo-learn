@@ -6,7 +6,10 @@
    <div class="banner-content">
         <div class="banner-header">
             <p class="banner-title">Learn Anytime, Anywhere
-                <span class="banner-title title-weight">at HapoLearn<img class="logo-image" src="{{ asset('images/Group 6.png') }}" alt="HapoLearn Logo"> !</span>
+                <span class="banner-title title-weight">at HapoLearn
+                    <img class="banner-image" src="{{ asset('images/Group 6.png') }}" 
+                    alt="HapoLearn Logo"> !
+                </span>
             </p>
         </div>
 
