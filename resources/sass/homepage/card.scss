@@ -1,0 +1,188 @@
+@font-face {
+    font-family: UTM BryantLG;
+    src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
+    src: url("../../assets/fonts/UTM_BryantLG.ttf");
+    src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
+    src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card-main {
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+    .card-image {
+      width: 100%;
+      min-height: 215px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 15px 15px 0px 0px;
+
+        .card-img-top {
+          width: 226px;
+          height: 125px;
+        }
+    }
+}
+
+.card-body {
+    text-align: center;
+    .card-title {
+      color: #b2d235;
+      font-size: 30px;
+      font-family: UTM BryantLG;
+      font-weight: 700;
+    }
+
+    .card-text {
+      font-size: 14px;
+      letter-spacing: -0.05em;
+      font-family: UTM BryantLG;
+      font-weight: 700;
+    }
+}
+
+.card-left {
+  background: #3f6185;
+}
+
+.card-center {
+  background: #dc594c;
+}
+
+.card-right {
+  background: #556598;
+}
+
+.card-btn {
+  width: 200px;
+  height: 42px;
+  font-family: UTM BryantLG;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background: #b2d235;
+  border-radius: 22px;
+  box-shadow: inset 0px 1.5px 2px #6f8710;
+  border: 0;
+  margin-bottom: 20px;
+}
+
+.other {
+  width: 50%;
+  margin-top: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.other-title {
+  color: #11114E;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  border-bottom: 6px solid #B2D235;
+  border-radius: 3px;
+}
+
+.other-left {
+  background: #24ABE2;
+}
+
+.img-left {
+  width: 198px !important;
+}
+
+.other-right {
+  background: #E14E40;
+}
+
+.img-center {
+  width: 258px !important;
+}
+
+.other-right {
+  background: #1B75BB;
+}
+
+@media only screen and (max-width: 769px) {
+    .card-container {
+      .card-main {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          
+          .card-image {
+            border-radius: 15px 0 0 15px;
+          }
+      }
+
+      .card-title {
+        font-size: 20px;
+      }
+
+      .card-text {
+        font-size: 14px;
+      } 
+    }
+
+    .other-title {  
+      font-size: 50px;
+    }
+
+    .card-body {
+      text-align: left;
+    }
+
+    .card-btn {
+      width: 136px;
+      height: 31.53px;
+      font-size: 14px;
+      font-weight: 400;
+      float: right;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+      .card-main {
+          display: flex;
+          flex-direction: column;
+          border-radius: 15px;
+      }
+        
+      .card-image {
+        border-radius: 15px !important;
+      }
+      .card-body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          align-items: center;
+          border-radius: 15px;
+        }
+        
+        .card-btn {
+          width: 200px;
+          height: 42px;
+          font-size: 18px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    }
+
+    .other-title {
+      font-size: 27px;
+    }
+}

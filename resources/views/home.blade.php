@@ -26,4 +26,5 @@
         <button class="banner-btn"> Start Learning Now!</button>
    </div>
 </section>
+<div class="banner-footer"></div>
 @endsection

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
+  src: url("../../assets/fonts/UTM_BryantLG.ttf");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
+}
 .banner {
   height: 100vh;
   background-image: url("../../assets/images/Hapo_Learn_banner 1.png");
@@ -6,6 +13,7 @@
   background-position: top center;
   display: flex;
   align-items: center;
+  position: relative;
 
     .banner-content {
       margin-left: 30px;
@@ -13,7 +21,7 @@
 }
 
 .banner-header {
-  width: 566px;
+  width: 578px;
   height: 145px;
   line-height: 55px;
   margin-bottom: -30px;
@@ -22,6 +30,10 @@
       font-size: 50px; 
       color: #11114E;
       font-weight: 400;
+      font: {
+        family: 'UTM BryantLG';
+        style: normal;
+      }
     }
 
       .title-weight {
@@ -37,12 +49,16 @@
 .banner-text {
   width: 249px;
   height: 50px;
+  // font: {
+  //   family: 'UTM BryantLG';
+  //   style: normal;
+  // }
+  font-family: 'UTM BryantLG';
 
     .paragraph {
       font-size: 20px;
       color: #505353;
       font-weight: 400;
-      font: UTM BryantLG;
     }
 }
 
@@ -57,13 +73,21 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
   border: 0;
-  font: {
-    family: 'UTM BryantLG';
-    style: normal;
-  }
+  // font: {
+  //   family: 'UTM BryantLG';
+  //   style: normal;
+  // }
+  font-family: 'UTM BryantLG';
   letter-spacing: -0.05em;
 }
 
+.banner-footer{
+  position: absolute;
+  background: #dfe6e9;
+  width: 100%;
+  height: 100px;
+  z-index: 0;
+}
 @media (max-width: 769px) {
   .banner {
     width: 767px;
@@ -71,7 +95,7 @@
   }
   
   .banner-header {
-    width: 337px;
+    width: 345px;
     height: 115.22px;
     line-height: 32px;
   }
@@ -100,25 +124,25 @@
 
 @media (max-width: 376px) {
   .banner {
-    width: 375px;
+    width: 100%;
     height: 510px;
     background-size: contain;
   }
 
   .banner-header {
+    width: 334;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 15px;
-    width: 376px;
     line-height: 27px;
   }
+
   .banner-title {
     font-size: 25px !important;
     margin-right: 59px;
-    width: 303px;
   }
   
   .banner-image {
@@ -126,17 +150,18 @@
     height: 22.83px;
   }
   .banner-text {
-    margin-left: 20px;
+    margin-left: 3px;
   }
 
   .title-weight {
-    margin-right: 77px;
+    margin-right: 81px;
   }
+
   .banner-btn {
     width: 250px;
     height: 46.42px;
     font-size: 18px !important;
     letter-spacing: -0.0em;
-    margin-left: 20px;
+    margin-left: 6px;
   }
 }
