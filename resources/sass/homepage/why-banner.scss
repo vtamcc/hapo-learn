@@ -1,0 +1,67 @@
+@font-face {
+  font-family: UTM BryantLG;
+  src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
+  src: url("../../assets/fonts/UTM_BryantLG.ttf");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
+}
+
+.question {
+  display: flex;
+  align-items: center;
+}
+
+.question-container {
+  height: 100vh;
+  background-image: url("../../assets/images/question-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.question-main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+      .question-title {
+        color: $white;
+        font-weight: 700;
+        font-size: 70px;
+        font-family: UTM BryantLG;
+      }
+      
+      .question-text {
+        color: $white;
+        font-family: UTM BryantLG;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+
+}
+
+.question-image img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .question-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .question-body {
+    .question-title {
+      font-size: 50px;
+    }
+
+    .question-text {
+      font-size: 16px;
+    }
+  }
+
+  .question-image img {
+    width: 310px;
+    height: 248px;
+  }
+}

@@ -115,6 +115,21 @@
   background: #1B75BB;
 }
 
+.card-end {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card-end a {
+  font-size: 28px;
+  font-family: 'UTM BryantLG';
+  font-weight: 700;
+  color: #B2D235;
+  text-decoration: none;  
+}
+
 @media only screen and (max-width: 769px) {
     .card-container {
       .card-main {
@@ -183,6 +198,11 @@
     }
 
     .other-title {
+      font-family: UTM BryantLG;
       font-size: 27px;
+      font-weight: 700;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
 }

@@ -96,6 +96,11 @@
                     </div>
                 </div>
             </div>
+            <div class="card-end">
+                <a href="#">View All Courses 
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
     </div>
 </div>
 

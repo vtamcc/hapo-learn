@@ -3,7 +3,9 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
+// Slick
+@import '~slick-carousel/slick/slick.scss';
+@import '~slick-carousel/slick/slick-theme.scss';
 // Variables
 @import 'variables';
 
@@ -11,3 +13,5 @@
 @import 'homepage/header';
 @import 'homepage/banner';
 @import 'homepage/card';
+@import 'homepage/why-banner';
+@import 'homepage/feedback';
