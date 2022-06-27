@@ -22,73 +22,58 @@
         </div>
     </section>
 
-    <section class="">
-        <div class="container text-center text-md-start mt-5">
+    <section class="footer-body">
+        <div class="container-fluid text-center text-md-start mt-5">
             <div class="row mt-3">
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-gem me-3"></i>Company name
+                        <img class="logo-image mt-4" src="{{ asset('images/hapo-white.png') }}" alt="HapoLearn Logo">
                     </h6>
-                    <p>
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
+                    <p class="footer-text text-reset">
+                        Interactive lessons, "on-the-go" practice, peer support.
                     </p>
                 </div>
 
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Products
-                    </h6>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
+                    <!-- <h6 class="text-uppercase fw-bold mb-4">
+                        Home
+                    </h6> -->
                     <p>
-                        <a href="#!" class="text-reset">Angular</a>
+                        <a href="#!" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">React</a>
+                        <a href="#!" class="text-reset">Features</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Vue</a>
+                        <a href="#!" class="text-reset">Crouses</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Laravel</a>
-                    </p>
-                </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
-                    </h6>
-                    <p>
-                        <a href="#!" class="text-reset">Pricing</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Settings</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Help</a>
+                        <a href="#!" class="text-reset">Blog</a>
                     </p>
                 </div>
 
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Contact
-                    </h6>
-                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
                     <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        info@example.com
+                        <a href="#!" class="text-reset">Contact</a>
                     </p>
-                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    <p>
+                        <a href="#!" class="text-reset">Terms of Use</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">FAQ</a>
+                    </p>
+                </div>
+                <div class="footer-right col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <div class="row mt-5 row-item">
+                        <div class="col-4"><i class="fa-brands fa-facebook fa-item"></i></div>
+                        <div class="col-4"><i class="fas fa-phone me-3 fa-item"></i></div>
+                        <div class="col-4"><i class="fa-solid fa-envelope fa-item"></i></div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-4 footer-end">
+        <a class="text-reset" href="https://mdbootstrap.com/"> © 2020 HapoLearn, Inc. All rights reserved.</a>
     </div>
 </footer>

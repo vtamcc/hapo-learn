@@ -1,0 +1,48 @@
+.footer-body {
+  background: #505353;
+}
+
+.text-reset {
+  color: $white !important;
+  font-family: UTM BryantLG;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.fa-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  width: 30px;
+  height: 30px;
+  background: $white;
+  border-radius: 50%;
+}
+
+.footer-end {
+  font-family: UTM BryantLG;
+  font-size: 15px;
+  font-weight: 700;
+  background: #454545;
+}
+
+@media only screen and (max-width: 769px) {
+  .logo-image {
+    width: 186px;
+    height: 34px;
+  }
+
+  .text-reset {
+    font-size: 14px;
+  }
+
+  .footer-text {
+    width: 200px;
+  }
+}

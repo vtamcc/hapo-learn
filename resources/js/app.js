@@ -5,7 +5,7 @@
  */
 
 require('./bootstrap');
-
+require("slick-carousel");
 window.Vue = require('vue').default;
 
 /**
@@ -30,3 +30,14 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
+
+$(document).ready(function() {
+    $(".feedback-slide").slick({
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      infinite: true,
+      arrows: true,
+      prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+      nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+    });
+  });
