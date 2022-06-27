@@ -15,7 +15,6 @@
 }
 
 .nav-item:hover {
-  //background: #B2D235;
   border-radius: 17px;
   background-color: #B2D235;
 }
@@ -27,7 +26,6 @@
 
 .nav-link:hover {
   color: white !important;
-
 }
 
 @media (max-width: 376px) {
@@ -35,8 +33,4 @@
     width: 150px;
     height: 26.57px;
   }
-
-  // .nav-link:hover {
-  //   background-color: #B2D235;
-  // }
 }
