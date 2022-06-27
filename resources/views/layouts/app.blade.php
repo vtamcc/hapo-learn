@@ -20,6 +20,7 @@
     @include('layouts.header')
     <main>
         @yield('content')
+        @include('layouts.card')
     </main>
     @include('layouts.footer')
 
