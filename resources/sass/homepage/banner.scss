@@ -5,6 +5,7 @@
   src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
   src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
 }
+
 .banner {
   height: 100vh;
   background-image: url("../../assets/images/Hapo_Learn_banner 1.png");
@@ -30,10 +31,7 @@
       font-size: 50px; 
       color: #11114E;
       font-weight: 400;
-      font: {
-        family: 'UTM BryantLG';
-        style: normal;
-      }
+      font-family: 'UTM BryantLG';
     }
 
       .title-weight {
@@ -49,10 +47,6 @@
 .banner-text {
   width: 249px;
   height: 50px;
-  // font: {
-  //   family: 'UTM BryantLG';
-  //   style: normal;
-  // }
   font-family: 'UTM BryantLG';
 
     .paragraph {
@@ -73,10 +67,6 @@
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
   border: 0;
-  // font: {
-  //   family: 'UTM BryantLG';
-  //   style: normal;
-  // }
   font-family: 'UTM BryantLG';
   letter-spacing: -0.05em;
 }
@@ -88,6 +78,7 @@
   height: 100px;
   z-index: 0;
 }
+
 @media (max-width: 769px) {
   .banner {
     width: 767px;
@@ -108,7 +99,6 @@
   .banner-image {
     width: 34.98px;
     height: 34.5px;
-
   }
 
   .paragraph {
@@ -149,6 +139,7 @@
     width: 25.16px;
     height: 22.83px;
   }
+
   .banner-text {
     margin-left: 3px;
   }
