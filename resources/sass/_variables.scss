@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'UTM BryantLG';
+  src: url('../../public/fonts/UTM_BryantLG_B.ttf');
+  font-style: normal;
+}
+
 // Body
 $body-bg: #f8fafc;
 body {
@@ -10,6 +16,7 @@ body {
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+$font-main: 'UTM BryantLG';
 
 // Colors
 $blue: #3490dc;
@@ -22,6 +29,9 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$green-mainColor: #B2D235;
+$black: #505353;
+$color-title: #11114E;
 
 main {
   min-height: 54vh;
