@@ -15,9 +15,8 @@
 }
 
 .nav-item:hover {
-  //background: #B2D235;
   border-radius: 17px;
-  background-color: #B2D235;
+  background-color: $green-mainColor;
 }
 
 .nav-link {
@@ -27,9 +26,18 @@
 
 .nav-link:hover {
   color: white !important;
-
 }
 
-@media (max-width: 992px) {
-  // TODO
+@media (max-width: 769px) {
+  .logo-image {
+    width: 224px;
+    height: 50.81px;
+  }
+}
+
+@media (max-width: 376px) {
+  .logo-image {
+    width: 150px;
+    height: 26.75px;
+  }
 }
