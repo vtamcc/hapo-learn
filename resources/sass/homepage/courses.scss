@@ -26,31 +26,32 @@
 
 .card-body {
   text-align: center;
-    .card-title {
-      color: $green-mainColor;
-      font-size: 30px;
-      font-family: $font-main;
-      font-weight: 700;
-    }
 
-    .card-text {
-      font-size: 14px;
-      letter-spacing: -0.05em;
-      font-family: $font-main;
-      font-weight: 700;
-    }
+  .card-title {
+    color: $green-mainColor;
+    font-size: 30px;
+    font-family: $font-main;
+    font-weight: 700;
+  }
+
+  .card-text {
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    font-family: $font-main;
+    font-weight: 700;
+  }
 }
 
 .card-left {
-  background: #3f6185;
+  background: $blue;
 }
 
 .card-center {
-  background: #dc594c;
+  background: $red;
 }
 
 .card-right {
-  background: #556598;
+  background: $cyan;
 }
 
 .card-btn {
@@ -145,6 +146,7 @@
     float: right;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .card-container {
     .card-main {
@@ -157,6 +159,7 @@
   .card-image {
     border-radius: 15px !important;
   }
+
   .card-body {
     display: flex;
     flex-direction: column;
