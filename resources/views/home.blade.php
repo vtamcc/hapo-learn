@@ -117,4 +117,160 @@
             </div>
     </div>
 </div>
+<div class="question">
+    <div class="question-container">
+        <img  src="{{ asset('images/img-cpt.png')}}" class="img-after">
+        <div class="question-main">
+            <div class="question-content">
+                <p class="question-title">
+                    Why HapoLearn?
+                </p>
+                <div class="text-mg">
+                    <p class="question-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                            Interactive lessons, "on-the-go" practice, peer support.
+                    </p>
+                    <p class="question-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </p>
+                    <p class="question-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                            Interactive lessons, "on-the-go" practice, peer support.
+                    </p>
+                    <p class="question-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                             Interactive lessons, "on-the-go" practice, peer support.
+                    </p>
+                    <p class="question-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                            Interactive lessons, "on-the-go" practice, peer support.
+                    </p>
+                </div>
+            </div>
+            <div class="question-image">
+                    <img src="{{ asset('images/transparent-1911160_1280.png')}}" alt="" class="question-img">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="feedback">
+    <div class="feedback-main">
+        <div class="feedback-body">
+            <p class="feedback-title">
+                Feedback
+            </p>
+
+            <p class="feedback-text">
+                What other students turned professionals have to say about us
+                after learning with us and reaching their goals
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="feedback-slide row">
+                <div class="col-lg-12">
+                    <div class="card position-relative arrow-bottom">
+                        <div class="card-body">
+                             <p class="feedback-user">“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. 
+                                Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 user">
+                                <img src="{{ asset('images/feedback.png')}}" alt="" class="img-user">
+                        </div>
+
+                        <div class="col-10 info">
+                            <p class="info-name">Vu Tuan Anh</p>
+                            <p class="info-language">PHP</p>
+                            <div class="color-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="card position-relative arrow-bottom">
+                        <div class="card-body">
+                             <p class="feedback-user">“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. 
+                                Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 user">
+                                <img src="{{ asset('images/feedback.png')}}" alt="" class="img-user">
+                        </div>
+                        <div class="col-10 info">
+                            <p class="info-name">Vu Tuan Anh</p>
+                            <p class="info-language">PHP</p>
+                            <div class="color-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="card position-relative arrow-bottom">
+                        <div class="card-body">
+                             <p class="feedback-user">“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. 
+                                Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 user">
+                                <img src="{{ asset('images/feedback.png')}}" alt="" class="img-user">
+                        </div>
+
+                        <div class="col-10 info">
+                            <p class="info-name">Vu Tuan Anh</p>
+                            <p class="info-language">PHP</p>
+                            <div class="color-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="card position-relative arrow-bottom">
+                        <div class="card-body">
+                             <p class="feedback-user">“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. 
+                                Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2 user">
+                                <img src="{{ asset('images/feedback.png')}}" alt="" class="img-user">
+                        </div>
+
+                        <div class="col-10 info">
+                            <p class="info-name">Vu Tuan Anh</p>
+                            <p class="info-language">PHP</p>
+                            <div class="color-star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
